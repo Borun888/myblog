@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Lee 的个人博客</title>
+  <style>
+    body { font-family: 'Segoe UI', Arial, sans-serif; margin: 0; background: #f7f7f7; color: #222; }
+    .container { max-width: 900px; margin: 40px auto; background: #fff; border-radius: 12px; box-shadow: 0 2px 16px rgba(0,0,0,0.07); padding: 32px 24px; }
+    .banner { background: linear-gradient(90deg, #3a7afe 60%, #6ad1e3 100%); color: #fff; padding: 32px 0 24px 0; text-align: center; border-radius: 12px 12px 0 0; margin: -32px -24px 32px -24px; }
+    .banner-title { font-size: 2.5em; margin: 0 0 10px 0; }
+    .banner-quote { font-size: 1.2em; opacity: 0.92; }
+    .ad-slot { background: #ffe9b3; color: #b8860b; border: 1.5px dashed #ffd700; border-radius: 8px; text-align: center; padding: 18px 0; margin: 24px 0; font-size: 1.1em; }
+    .header { text-align: center; margin-bottom: 32px; }
+    .avatar { width: 110px; height: 110px; border-radius: 50%; object-fit: cover; border: 3px solid #eee; margin-bottom: 16px; }
+    h1 { margin: 0 0 8px 0; font-size: 2.2em; }
+    .subtitle { color: #888; font-size: 1.1em; margin-bottom: 16px; }
+    section { margin-bottom: 36px; }
+    h2 { color: #3a7afe; font-size: 1.3em; margin-bottom: 12px; }
+    .about { font-size: 1.08em; color: #444; line-height: 1.8; }
+    .skills { display: flex; flex-wrap: wrap; gap: 18px; margin-top: 10px; }
+    .skill { background: #f2f6fc; border-radius: 6px; padding: 8px 18px; font-size: 1em; color: #2d5be3; box-shadow: 0 1px 4px rgba(58,122,254,0.04); }
+    .blog-list { list-style: none; padding: 0; }
+    .blog-item { background: #f2f6fc; border-radius: 8px; margin-bottom: 18px; padding: 18px 16px; transition: box-shadow 0.2s; }
+    .blog-item:hover { box-shadow: 0 2px 8px rgba(58,122,254,0.08); }
+    .blog-title { font-size: 1.15em; margin: 0 0 8px 0; color: #2d5be3; }
+    .blog-date { color: #aaa; font-size: 0.95em; margin-bottom: 8px; }
+    .blog-content { color: #333; font-size: 1em; }
+    .contact-list { list-style: none; padding: 0; display: flex; gap: 18px; }
+    .contact-list li { display: flex; align-items: center; }
+    .contact-list a { color: #3a7afe; text-decoration: none; font-weight: 500; }
+    footer { text-align: center; color: #aaa; font-size: 0.98em; margin-top: 32px; }
+    @media (max-width: 600px) {
+      .container { padding: 8px 2px; }
+      .banner { padding: 18px 0 12px 0; margin: -8px -2px 18px -2px; }
+      .header { margin-bottom: 18px; }
+      .skills { flex-direction: column; gap: 8px; }
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <div class="banner">
+      <div class="banner-title">Lee 的个人博客</div>
+      <div class="banner-quote">“用文字记录生活，用代码创造未来。”</div>
+    </div>
+
+    <!-- 顶部广告位（可插入广告联盟代码） -->
+    <div class="ad-slot">
+      <!-- 在这里插入广告代码，例如百度联盟、Google AdSense 等 -->
+      顶部广告位
+    </div>
+
+    <div class="header">
+      <img class="avatar" src="https://i.pravatar.cc/110?img=3" alt="Lee 头像">
+      <h1>Lee</h1>
+      <div class="subtitle">记录美好生活</div>
+    </div>
+
+    <section>
+      <h2>关于我</h2>
+      <div class="about">
+        你好，我是 Lee，一名热爱生活与技术的博主。<br>
+        喜欢摄影、旅行、写作和编程。<br>
+        目前专注于前端开发、网页设计和自媒体内容创作。<br>
+        希望通过博客分享我的成长、见闻与思考。
+      </div>
+      <div class="skills">
+        <div class="skill">HTML5</div>
+        <div class="skill">CSS3</div>
+        <div class="skill">JavaScript</div>
+        <div class="skill">前端框架</div>
+        <div class="skill">摄影</div>
+        <div class="skill">写作</div>
+      </div>
+    </section>
+
+    <!-- 中部广告位（可插入广告联盟代码） -->
+    <div class="ad-slot">
+      <!-- 在这里插入广告代码，例如百度联盟、Google AdSense 等 -->
+      中部广告位
+    </div>
+
+    <section>
+      <h2>博客</h2>
+      <ul class="blog-list">
+        <li class="blog-item">
+          <div class="blog-title">第一篇博客：你好，世界！</div>
+          <div class="blog-date">2024-06-01</div>
+          <div class="blog-content">这是我的第一篇博客文章。未来我会在这里分享生活、学习和成长的点滴。</div>
+        </li>
+        <li class="blog-item">
+          <div class="blog-title">生活随笔：春日漫步</div>
+          <div class="blog-date">2024-05-20</div>
+          <div class="blog-content">春天的午后，阳光温暖，微风拂面，记录下这份美好与宁静。</div>
+        </li>
+        <li class="blog-item">
+          <div class="blog-title">技术分享：我的建站之路</div>
+          <div class="blog-date">2024-05-10</div>
+          <div class="blog-content">从零开始搭建个人博客，记录遇到的问题与解决方法，希望对你有所帮助。</div>
+        </li>
+        <li class="blog-item">
+          <div class="blog-title">旅行记：遇见大理</div>
+          <div class="blog-date">2024-04-28</div>
+          <div class="blog-content">大理的风、洱海的水、古城的夜，都是我心中的诗和远方。</div>
+        </li>
+        <li class="blog-item">
+          <div class="blog-title">摄影札记：光影之间</div>
+          <div class="blog-date">2024-04-10</div>
+          <div class="blog-content">用镜头捕捉生活的美好瞬间，每一张照片都是一段故事。</div>
+        </li>
+      </ul>
+    </section>
+
+    <!-- 博客下方广告位（可插入广告联盟代码） -->
+    <div class="ad-slot">
+      <!-- 在这里插入广告代码，例如百度联盟、Google AdSense 等 -->
+      博客下方广告位
+    </div>
+
+    <section>
+      <h2>联系方式</h2>
+      <ul class="contact-list">
+        <li>📧 <a href="mailto:your@email.com">your@email.com</a></li>
+        <li>🐙 <a href="https://github.com/your-github" target="_blank">GitHub</a></li>
+        <li>📷 <a href="#">微博</a></li>
+      </ul>
+    </section>
+
+    <footer>
+      &copy; 2024 Lee. 保留所有权利。
+    </footer>
+  </div>
+</body>
+</html> 
